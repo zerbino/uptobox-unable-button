@@ -1,0 +1,13 @@
+{
+  "name": "uptobox button enabler",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A simple extension to enable the download button on uptobox, to not have to wait for 30 seconds.",
+  "content_scripts": [
+    {
+      "css": [ "styles.css" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://uptobox.com/*" ]
+    }
+  ]
+}
